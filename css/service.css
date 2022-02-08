@@ -1,0 +1,46 @@
+h1{
+    padding-left: 1.5rem;
+    font-size: 35pt;
+}
+
+.grid-service{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    transition: 0.5s;
+}
+
+.item-service{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: rgba(48, 119, 119, 0.1);
+    border-radius: 0.7rem 0.4rem;
+    transition: 0.5s;
+}
+
+.item-service span{
+    font-size: 35pt;
+}
+
+.item-service h2{
+    text-transform: uppercase;
+}
+
+.item-service hr{
+    border-bottom: none;
+    height: 2px;
+    border-radius: 0.4rem;
+    background-color: rgb(97, 197, 197);
+}
+
+.item-service p{
+    font-family: 'Kanit-Light';
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 800px) {
+    .grid-service{
+        grid-template-columns: 1fr;
+    }
+}

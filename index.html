@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo/logo2.png"> <!--Icone da guia-->
+    <link rel="stylesheet" type="text/css" href="css/index.css"> <!--Arquivo CSS - index.css-->
+    <link rel="stylesheet" type="text/css" href="css/general.css"> <!--Arquivo CSS - general.css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Framework Google fonts-->    
+    <script src="js/menu-general.js"></script>
+    <script src="js/general.js"></script>
+    <title>Vitor Barbosa | Site Pessoal</title>
+</head>
+<body onload="loadPage()">
+    <div class="body-back">
+        <div class="body">
+            <header>
+                <div class="div-header">
+                    <div class="div-logo">
+                        <figure>
+                            <a href="index.html">
+                                <img id="img-logo" src="img/logo/logo1.png" alt="Logo">
+                            </a>
+                        </figure>
+                    </div>
+                    <div id="div-menu-prime">
+                        <nav>
+                            <a class="link-menu" href="index.html">Início</a>
+                            <a class="link-menu" href="src/project.html">Projetos</a>
+                            <a class="link-menu" href="src/service.html">Serviços</a>
+                            <a class="link-menu" href="src/contact.html">Contato</a>   
+                            <button id="close-menu" class="button-menu-close" onclick="menuClose()"><span class="material-icons">close</span></button>   
+                        </nav>
+                    </div>
+                    <div id="link-menu-div">
+                        <div id="div-menu" class="div-menu">
+                            <nav>
+                                <a class="link-menu" href="index.html">Início</a>
+                                <a class="link-menu" href="src/project.html">Projetos</a>
+                                <a class="link-menu" href="src/service.html">Serviços</a>
+                                <a class="link-menu" href="src/contact.html">Contato</a>   
+                                <button id="close-menu" class="button-menu-close" onclick="menuClose()"><span class="material-icons">close</span></button>   
+                            </nav>
+                        </div>
+                        <button id="open-menu" class="button-menu-open" onclick="menuOpen()"><span class=" material-icons">menu</span></button>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="div-main">
+                    <section>
+                        <div id="section1">
+                            <div class="text-section1">Olá!<br>
+                                meu nome é
+                                <h1>VITOR BARBOSA</h1>
+                                <div id="sub-s1">e seja bem-vido(a) a minha página!</div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <a href="#section-back">Explorar</a>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="space-section"></div>
+                    <section id="section-back">
+                        <div id="section2">
+                            <div id="content-s2">
+                                <h2>APRESENTAÇÃO</h2>
+                                <br>
+                                <br>
+                                <p>Prazer,</p>
+                                <br>
+                                <p>
+                                    Meu nome é Vitor Barbosa, tenho <span id="idade"></span> anos e sou desenvolvedor Front End. Criei esta página com o intuito de me apresentar como profissioanl da área de TI, expor meus projetos, minhas habilidades, conhecimentos, serviços dentre outros.
+                                </p>
+                                <p>
+                                    Aqui ficarão dispostos meus projetos de sites, aplicativos, aplicações web e afins(hospedados ou não), suas respectivas explicações e ferramentas utilizadas.
+                                </p>
+                                <p>
+                                    Por meio deste ambiente, será possível ter conhecimentos das minhas habilidades, serviços que presto, ferramentas que utilizo e as formas que você pode, eventualmente, utilizar para me contratar.
+                                </p>
+                                <p>
+                                    Espero que sua experiência aqui seja prazerosa.
+                                </p>
+                                <p></p>
+                                <p id="ass">
+                                    Abraços,<br> 
+                                    Vitor Barbosa
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="space-section"></div>
+                    <section>
+                        <div class="title-section">
+                            <h2>PROJETOS</h2>
+                        </div>
+                        <div id="section3">
+                            <div class="item-s3">
+                                <div class="title-item-s3">
+                                    <span class="material-icons">folder</span><h3>Sófilys</h3>
+                                </div>
+                                <hr>
+                                <p>Aplicação web desenvolvida para ensino e aprendizagem de Filosofia e Sociologia possuindo diversos conteúdos, materiais de apoio, ambiente de interação...</p>
+                            </div>
+                            <div class="item-s3">
+                                <div class="title-item-s3">
+                                    <span class="material-icons">folder</span><h3>Molfedd</h3>
+                                </div>
+                                <hr>
+                                <p>Ambiente de interação para jogadores de RPG, que fornece desde ferramentas para criação do seu próprio avatar personalizados, suporte, jogos, comunidade...</p>
+                            </div>
+                            <div class="item-s3">
+                                <div class="title-item-s3">
+                                    <span class="material-icons">folder</span><h3>Instituto Corvidae</h3>
+                                </div>
+                                <hr>
+                                <p>Site institucional para instituição de ensino(fictícia) de caráter particular, onde seriam expostos aos possíveis clientes as informações mais recentes, cursos, planos...</p>
+                            </div>
+                            <div class="item-s3">
+                                <div class="title-item-s3">
+                                    <span class="material-icons">folder</span><h3>Sofilys Mobile</h3>
+                                </div>
+                                <hr>
+                                <p>App de apoio à aplicação web Sofilys, que permite ao usuário disfrutar de parte do conteúdo e de uma banco de questões para treinar os conhecimento offline...</p>
+                            </div>
+                        </div>
+                        <div id="project-s3">
+                            <a href="src/project.html">
+                                Ver todos os projetos
+                            </a>
+                        </div>
+                    </section>
+                    <div class="space-section"></div>
+                    <section>
+                        <div class="title-section">
+                            <h2>SERVIÇOS</h2>
+                        </div>
+                        <div id="section4">
+                            <div class="item-s4">
+                                <div class="title-item-s4">
+                                    <span class="material-icons">web</span><h3>Front-End</h3>
+                                </div>
+                                <hr>
+                                <p>Desenvolvimento da parte visual e funcional do site e/ou da aplicação em que ocorre toda a interação direta entre...</p>
+                            </div>
+                            <div class="item-s4">
+                                <div class="title-item-s4">
+                                    <span class="material-icons">developer_board</span><h3>Back-End</h3>
+                                </div>
+                                <hr>
+                                <p>Desenvolvimento de toda a parte de tratamento de dados e processos lógicos de possibilitam a interação com...</p>
+                            </div>
+                            <div class="item-s4">
+                                <div class="title-item-s4">
+                                    <span class="material-icons">phone_android</span><h3>Mobile</h3>
+                                </div>
+                                <hr>
+                                <p>Desenvolvimento de aplicativo aptos a funcionarem em dispossítivos móveis - neste caso - mais especificamentoe, em...</p>
+                            </div>
+                            <div class="item-s4">
+                                <div class="title-item-s4">
+                                    <span class="material-icons">dns</span><h3>Banco de dados</h3>
+                                </div>
+                                <hr>
+                                <p>Desenvolvimento, alteração, configuração, preenchiamento, administração e análise de banco de dados, suas entidades...</p>
+                            </div>
+                        </div>
+                        <div id="service-s4">
+                            <a href="src/service.html">
+                                Ver todos os serviços
+                            </a>
+                        </div>
+                    </section>
+                    <div class="space-section"></div>
+                    <section>
+                        <div class="title-section">
+                            <h2>TECNOLOGIAS E FERRAMENTAS</h2>
+                        </div>
+                        <div id="section5">
+                            <div id="html" class="item-s5">
+                                HTML
+                            </div>
+                            <div id="css" class="item-s5">
+                                CSS
+                            </div>
+                            <div id="js" class="item-s5">
+                                JS
+                            </div>
+                            <div id="php" class="item-s5">
+                                PHP
+                            </div>
+                            <div id="sql" class="item-s5">
+                                SQL
+                            </div>
+                            <div id="java" class="item-s5">
+                                JAVA
+                            </div>
+                        </div>
+                        <div id="section5">
+                            <div  id="git" class="item-s5">
+                                Git
+                            </div>
+                            <div id="bootstrap" class="item-s5">
+                                Bootstrap
+                            </div>
+                            <div id="jquery" class="item-s5">
+                                JQuery
+                            </div>
+                            <div id="materialize" class="item-s5">
+                                Materialize CSS
+                            </div>
+                            <div id="cloud" class="item-s5">
+                                Cloud
+                            </div>
+                            <div id="node" class="item-s5">
+                                Node.js
+                            </div>
+                        </div>
+                        <div id="section5">
+                            <div id="materialdesign" class="item-s5">
+                                Material design
+                            </div>
+                            <div id="xampp" class="item-s5">
+                                XAMPP
+                            </div>
+                            <div  id="uml" class="item-s5">
+                                UML
+                            </div>
+                            <div  id="inkscape" class="item-s5">
+                                Inkscape
+                            </div>
+                            <div id="kodular" class="item-s5">
+                                Kodular
+                            </div>
+                            <div id="android" class="item-s5">
+                                Android
+                            </div>
+                        </div>
+                    </section>
+                    <div class="space-section end"></div>
+                    <section>
+                        <div id="end-page">
+                            <h2>
+                                ESPERO QUE TENHA GOSTADO<br>
+                                DA SUA EXPERIÊNCIA AQUI
+                            </h2>
+                        </div>
+                    </section>
+                    <div class="space-section end"></div>
+                </div>
+            </main>
+            <a class="up-link" href="#">
+                <span class="material-icons">expand_less</span>
+            </a>
+            <footer>
+                <div class="div-footer">
+                    <div id="author">
+                        <p>Site desenvolvido por Vitor Barbosa.</p>
+                        <p>Atualizado em janeiro de 2022</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div>
+                        <div class="div-footer-link">
+                            <a class="link-footer" title="Instagram" target="_black" href="https://www.instagram.com/vitorbarbosa431">Instagram</a>
+                            <a class="link-footer" title="Facebook" target="_black" href="https://www.facebook.com/vitor.m.s.barbosa/">Facebook</a>
+                            <a class="link-footer" title="GitHub" target="_black" href="https://github.com/vitor-ms-barbosa">GitHub</a>
+                            <a class="link-footer" title="linkedin" target="_black" href="https://www.linkedin.com/in/vitor-barbosa-1141681a1/">Linkedin</a>
+                            <a class="link-footer" title="E-mail" target="_black" href="mailto:vitor.manoel.silva.barbosa@gmail.com">E-mail</a>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <br>
+                        <br>
+                        &copy; Vitor Barbosa, 2021. Todos os direitos reservados.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

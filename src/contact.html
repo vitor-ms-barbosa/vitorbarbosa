@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo/logo2.png"> <!--Icone da guia-->
+    <link rel="stylesheet" type="text/css" href="../css/contact.css"> <!--Arquivo CSS - contact.css-->
+    <link rel="stylesheet" type="text/css" href="../css/general.css"> <!--Arquivo CSS - general.css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Framework Google fonts-->    
+    <script src="../js/menu-general.js"></script>
+    <title>Vitor Barbosa | Contato</title>
+</head>
+<body onload="loadPage()">
+    <div class="body-back">
+        <div class="body">
+            <header>
+                <div class="div-header">
+                    <div class="div-logo">
+                        <figure>
+                            <a href="../index.html">
+                                <img id="img-logo" src="../img/logo/logo1.png" alt="Logo">
+                            </a>
+                        </figure>
+                    </div>
+                    <div id="div-menu-prime">
+                        <nav>
+                            <a class="link-menu" href="../index.html">Início</a>
+                            <a class="link-menu" href="project.html">Projetos</a>
+                            <a class="link-menu" href="service.html">Serviços</a>
+                            <a class="link-menu" href="contact.html">Contato</a>   
+                            <button id="close-menu" class="button-menu-close" onclick="menuClose()"><span class="material-icons">close</span></button>   
+                        </nav>
+                    </div>
+                    <div id="link-menu-div">
+                        <div id="div-menu" class="div-menu">
+                            <nav>
+                                <a class="link-menu" href="../index.html">Início</a>
+                                <a class="link-menu" href="project.html">Projetos</a>
+                                <a class="link-menu" href="service.html">Serviços</a>
+                                <a class="link-menu" href="contact.html">Contato</a>   
+                                <button id="close-menu" class="button-menu-close" onclick="menuClose()"><span class="material-icons">close</span></button>   
+                            </nav>
+                        </div>
+                        <button id="open-menu" class="button-menu-open" onclick="menuOpen()"><span class=" material-icons">menu</span></button>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="div-main">
+                    <form>
+                        <fieldset>
+                            <legend>Formulário de contato</legend>
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" class="input-contact" id="name" required placeholder="Nome Sobrenome"><br>
+                            <br>
+                            <label for="email">E-Mail</label>
+                            <input type="email" name="email" class="input-contact" id="email" required placeholder="exemplo@dominio.com"><br>
+                            <br>
+                            <label for="assunto">Assunto</label>
+                            <input type="text" name="assunto" class="input-contact" id="assunto" required placeholder="Assunto"><br>
+                            <br>
+                            <label for="name">Nome</label>
+                            <textarea class="input-contact" id="name" required placeholder="Escreva aqui a mensagem" name="assunto" cols="30" rows="10"></textarea>
+                            <br>
+                            <button type="submit"><span class="material-icons">send</span><div>Enviar mensagem</div></button>
+                        </fieldset>
+                    </form>
+                </div>
+            </main>
+            <a class="up-link" href="#">
+                <span class="material-icons">expand_less</span>
+            </a>
+            <footer>
+                <div class="div-footer">
+                    <div id="author">
+                        <p>Site desenvolvido por Vitor Barbosa.</p>
+                        <p>Atualizado em janeiro de 2022</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div>
+                        <div class="div-footer-link">
+                            <a class="link-footer" title="Instagram" target="_black" href="https://www.instagram.com/vitorbarbosa431">Instagram</a>
+                            <a class="link-footer" title="Facebook" target="_black" href="https://www.facebook.com/vitor.m.s.barbosa/">Facebook</a>
+                            <a class="link-footer" title="GitHub" target="_black" href="https://github.com/vitor-ms-barbosa">GitHub</a>
+                            <a class="link-footer" title="linkedin" target="_black" href="https://www.linkedin.com/in/vitor-barbosa-1141681a1/">Linkedin</a>
+                            <a class="link-footer" title="E-mail" target="_black" href="mailto:vitor.manoel.silva.barbosa@gmail.com">E-mail</a>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <br>
+                        <br>
+                        &copy; Vitor Barbosa, 2021. Todos os direitos reservados.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

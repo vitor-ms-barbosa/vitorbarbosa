@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit/Kanit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kanit-light';
+    src: url('../fonts/Kanit/Kanit-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'static';
+    src: url('../fonts/static/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'insaniburger';
+    src: url('../fonts/insaniburger/Insanibu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(27, 40, 44);
+}
+
+.body-back{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(97, 197, 197);
+}
+
+.body{
+    max-width: 1500px;
+    width: 100%;
+    font-family: 'Kanit';
+}
+
+.div-header{
+    display: inline-flex;
+    width: 100%;
+}
+
+.div-logo{
+    display: block;
+    width: 40%;
+}
+
+#div-menu-prime{
+    font-family: 'Kanit';
+    display: flex;
+    width: 50%;
+    float: left;
+    padding: 1.5rem 0rem;
+}
+
+#div-menu{
+    display: none;
+    font-family: 'Kanit';
+    width: 50%;
+    float: left;
+    padding: 1.5rem 0rem;
+}
+
+#link-menu-div{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0.0;
+    margin: 0;
+    padding: 0;
+}
+
+.link-menu{
+    display: initial;
+    text-decoration: none;
+    color: rgb(97, 197, 197);
+    font-size: 12pt;
+    padding: 0.5rem 1rem;
+    margin: 2rem 1rem;
+    border: 1px solid rgb(27, 40, 44);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.link-menu:hover{
+    border: 1px solid rgb(97, 197, 197);
+}
+
+
+#img-logo{
+    opacity: 0.8;
+}
+
+#img-logo:hover{
+    opacity: 1;
+}
+
+
+.button-menu-open{
+    display: none;
+    position: absolute;
+    color: rgb(97, 197, 197);
+    border: 2px solid rgba(27, 40, 44, 0);
+    background-color: rgb(27, 40, 44);
+    top: 0.0;
+    right: 0.0;
+    margin: 0.5rem;
+    padding: 0;
+    text-align: center;
+    border-radius: 10px;
+    width: 30pt;
+    height: 29pt;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-menu-open span{
+    font-size: 20pt;
+    margin: 0px;
+    padding: 3pt 0pt;
+}
+
+.button-menu-open:hover{
+    border: 2px solid rgb(97, 197, 197);
+}
+
+.button-menu-close{
+    display: none;
+    color: rgb(97, 197, 197);
+    border: 2px solid rgb(97, 197, 197);
+    background-color: rgb(27, 40, 44);
+    margin: 1rem auto;
+    border-radius: 100%;
+    height: 40pt;
+    width: 40pt;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-menu-close span{
+    padding: 5pt 0pt;
+    margin: 0px;
+    font-size: 20pt;
+}
+
+.button-menu-close:hover{
+    background-color: rgb(97, 197, 197);
+    color: white;
+}
+
+#author{
+    width: 95%;
+}
+
+.up-link{
+    display: block;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border: 1px solid rgba(97, 197, 197, 0);
+    padding: 0.25rem;
+    border-radius: 100%;
+    height: 1.5rem;
+    width: 1.5rem;
+    transition: 0.5s;
+}
+
+.up-link:hover{
+    border: 1px solid rgb(97, 197, 197);
+}
+
+.up-link span{
+    color: rgb(97, 197, 197);
+    text-decoration: none;
+}
+
+.div-footer{
+    background-color: rgb(17, 29, 32);
+    padding-top: 2rem;
+}
+
+.div-footer hr{
+    background-color: rgb(97, 197, 197);
+    border-bottom: 1px solid rgb(97, 197, 197);
+    width: 80%;
+}
+
+.div-footer-link{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link-footer{
+    color: rgb(97, 197, 197);
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0rem 1rem;
+    transition: 0.5s;
+}
+
+.link-footer:hover{
+    text-decoration: underline;
+}
+
+.copy{
+    font-size: 10pt;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px){
+    .div-header{
+        display: inline-block;
+        width: 60%;
+    }
+
+    .div-logo{
+        width: 70%;
+    }
+
+    #div-menu-prime{
+        display: none;
+    }
+
+    #link-menu-div{
+        display: inline-block;
+    }
+
+    #div-menu{
+        position: fixed;
+        background-color: rgba(27, 40, 44, 0.95);
+        width: 100%;
+        height: 100%;
+        top: 0.0;
+        display: none;
+        opacity: 0.0;
+        transition: 1.0s;
+    }
+
+    .link-menu{
+        display: block;
+        margin: 0.5rem auto 0.2rem auto;
+        width: 80%;
+        border: 1px solid rgba(27, 40, 44, 0);
+    }
+
+    .button-menu-open{
+        display: block;
+    }
+
+    .button-menu-close{
+        display: block;
+    }
+
+    .link-footer{
+         margin: 0rem 0.5rem;
+    }
+}
+
+
+:root{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(110, 116, 115);
+    width: 6px;
+    border-radius: 10px;
+}
